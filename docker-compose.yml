@@ -1,0 +1,6 @@
+services:
+  heart-disease-api:
+    build: .
+    container_name: heart-disease-api
+    ports:
+      - "8000:8000"
